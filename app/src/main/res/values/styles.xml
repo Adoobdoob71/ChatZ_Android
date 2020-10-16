@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorHeader">@color/colorHeaderLightTheme</item>
+        <item name="colorCard">@color/colorCardLightTheme</item>
+        <item name="colorBackground">@color/colorBackgroundLightTheme</item>
+        <item name="colorText">@color/colorTextLightTheme</item>
+        <item name="colorDivider">@color/colorDividerLightTheme</item>
+
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorHeader">@color/colorHeaderDarkTheme</item>
+        <item name="colorCard">@color/colorCardDarkTheme</item>
+        <item name="colorBackground">@color/colorBackgroundDarkTheme</item>
+        <item name="colorText">@color/colorTextDarkTheme</item>
+        <item name="colorDivider">@color/colorDividerDarkTheme</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="AppTheme.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
